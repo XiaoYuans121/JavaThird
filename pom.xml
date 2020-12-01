@@ -21,6 +21,12 @@
 
     <dependencies>
 
+        <!-- 给内嵌tomcat提供jsp解析功能的jar-->
+        <dependency>
+            <groupId>org.apache.tomcat.embed</groupId>
+            <artifactId>tomcat-embed-jasper</artifactId>
+        </dependency>
+
         <!--整合mybatis-->
         <!--mybatis和springboot的整合包-->
         <dependency>

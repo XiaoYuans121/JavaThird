@@ -10,7 +10,7 @@
 </head>
 <body>
 
-    <table class="table table-striped" style="border: #9d9d9d 1px solid">
+    <table class="table table-responsive table-hover">
         <tr>
             <td>Id</td>
             <td>用户名</td>
@@ -20,7 +20,7 @@
         <C:forEach items="${requestScope.list}" var="user">
             <tr>
                 <td>${user.id}</td>
-                <td>${user.username}}</td>
+                <td>${user.username}</td>
                 <td>${user.password}</td>
                 <td>
                     <button type="button" class="btn btn-primary">修改</button>
